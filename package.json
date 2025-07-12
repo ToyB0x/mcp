@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "biome check .",
+    "format": "biome check . --write",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.1",
+    "turbo": "2.5.4"
+  },
+  "engines": {
+    "node": "24.3.0"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "volta": {
+    "node": "24.3.0",
+    "pnpm": "10.12.4"
+  },
+  "author": "ToyB0x",
+  "homepage": "https://github.com/ToyB0x/mcp",
+  "bugs": {
+    "url": "https://github.com/ToyB0x/mcp/issues"
+  }
+}
