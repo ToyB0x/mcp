@@ -1,0 +1,29 @@
+{
+  "name": "@toyb0x/mcp-gh-image",
+  "version": "0.0.1",
+  "description": "MCP for upload image to github repository",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "inspector": "npx -y @modelcontextprotocol/inspector npx -y tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.15.0",
+    "zod": "3.25.73"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "2.0.5",
+    "@types/node": "24.0.10",
+    "tsup": "8.5.0",
+    "typescript": "5.8.3",
+    "vitest": "3.2.4"
+  },
+  "author": "ToyB0x",
+  "homepage": "https://github.com/ToyB0x/mcp",
+  "bugs": {
+    "url": "https://github.com/ToyB0x/mcp/issues"
+  }
+}
