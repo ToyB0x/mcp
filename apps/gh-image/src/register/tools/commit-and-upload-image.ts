@@ -27,13 +27,13 @@ export const commitAndUploadImage = (server: McpServer) => {
     {
       title: "Commit and Upload Image for preparing Github comment with image",
       description: `
-      - 通常はAI経由ではGithubのPRやIssueに画像プレビュー付きのコメントができません
-      - これはghコマンドやGithub公式のMCPツールでは画像プレビュー付きコメントに対応していないためです
-      - 例えAIが強引に画像プレビュー付きのPRを作っても人間がブラウザ経由でGithubのPRのURLを開いた場合、画像が表示されません
-      - このMCPツールは特定フォルダに画像をコミットし、Github上に画像URLを生成することで人間がブラウザでPRコメントを閲覧した際にも正常に画像プレビューを閲覧可能にします。
-      - AIはPR用のスクリーンショットを指定した場合 "commitAndUploadImagePath" にスクリーンショット画像を配置してください
-      - AIはこのMCPツール実行に必要な gh コマンドラインツールが利用であることを事前に確認してください
-      `,
+- Normally, you cannot create comments with image previews on GitHub PRs or Issues via AI
+- This is because the gh command and GitHub's official MCP tools do not support comments with image previews
+- Even if AI forcefully creates a PR with image preview, when a human opens the GitHub PR URL via browser, the image won't be displayed
+- This MCP tool commits images to a specific folder and generates image URLs on GitHub, enabling normal image preview viewing when humans browse PR comments
+- When AI specifies a screenshot for PR, please place the screenshot image in 'commitAndUploadImagePath'
+- AI should confirm beforehand that the gh command-line tool required for this MCP tool execution is available
+`,
       annotations: {
         openWorldHint: true,
         destructiveHint: true,
