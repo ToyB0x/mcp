@@ -21,8 +21,8 @@ importers:
         specifier: 1.15.0
         version: 1.15.0
       zod:
-        specifier: 3.25.73
-        version: 3.25.73
+        specifier: 3.25.76
+        version: 3.25.76
     devDependencies:
       '@tsconfig/strictest':
         specifier: 2.0.5
@@ -975,6 +975,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   stackback@0.0.2:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
@@ -1241,8 +1242,8 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.25.73:
-    resolution: {integrity: sha512-fuIKbQAWQl22Ba5d1quwEETQYjqnpKVyZIWAhbnnHgnDd3a+z4YgEfkI5SZ2xMELnLAXo/Flk2uXgysZNf0uaA==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
 
@@ -1394,8 +1395,8 @@ snapshots:
       express-rate-limit: 7.5.1(express@5.1.0)
       pkce-challenge: 5.0.0
       raw-body: 3.0.0
-      zod: 3.25.73
-      zod-to-json-schema: 3.24.6(zod@3.25.73)
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
       - supports-color
 
@@ -2353,8 +2354,8 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  zod-to-json-schema@3.24.6(zod@3.25.73):
+  zod-to-json-schema@3.24.6(zod@3.25.76):
     dependencies:
-      zod: 3.25.73
+      zod: 3.25.76
 
-  zod@3.25.73: {}
+  zod@3.25.76: {}
