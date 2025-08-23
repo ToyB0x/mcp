@@ -11,7 +11,7 @@
     "inspector": "npx -y @modelcontextprotocol/inspector npx -y tsx src/index.ts"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.15.0",
+    "@modelcontextprotocol/sdk": "1.17.4",
     "zod": "3.25.73"
   },
   "devDependencies": {
