@@ -15,7 +15,7 @@
     "zod": "3.25.73"
   },
   "devDependencies": {
-    "@tsconfig/strictest": "2.0.5",
+    "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.0.10",
     "tsup": "8.5.0",
     "typescript": "5.8.3",
